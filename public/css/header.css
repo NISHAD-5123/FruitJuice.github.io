@@ -1,0 +1,24 @@
+.navbar{
+    --bs-navbar-nav-link-padding-x: 1.5rem;
+}
+.navbar-collapse{
+   margin-left:52rem;
+}
+/* .nav-link{
+    margin-left:5px;
+    margin-right:5px;
+} */
+.navbar a img{
+    object-fit:cover;
+    height:60px;
+    width:60px;
+    border-radius:50%;
+}
+
+ /* horizontal line in middle of the page
+  */
+
+/* #comp-j7r1o1nm1 {* <div id="comp-j7r1o1nm1" class="comp-j7r1o1nm1 aVng1S wixui-horizontal-line"></div>
+    width: 436px;
+    height: 5px;
+} */ 

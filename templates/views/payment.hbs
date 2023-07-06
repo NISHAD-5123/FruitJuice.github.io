@@ -1,0 +1,113 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.3.1/mdb.min.css"
+      integrity="sha512-z4cZ8Ipfx9954czqJ4NPtaF6idvxtONaZRMHVamchb2KVsGcDQl3IWRT8HnVBw6MHfdegokCqUTtgD0Xxmfjog=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+         <link href="css/payment.css" rel="stylesheet">
+  </head>
+  <body>
+     {{>header}}
+<section class="gradient-custom">
+  <div class="container my-5 py-5">
+    <div class="row d-flex justify-content-center py-5">
+      <div class="col-md-7 col-lg-5 col-xl-4">
+        <div class="card" style="border-radius: 15px;">
+          <div class="card-body p-4">
+            <form method="POST" action="/payment">
+              <div class="d-flex justify-content-between align-items-center mb-3">
+                <div class="form-outline">
+                  <input type="password" id="typeText" class="form-control form-control-lg" siez="17"
+                    placeholder="1234 5678 9012"  maxlength="12" name="cardNumber" />
+                  <label class="form-label" for="typeText">Card Number</label>
+                </div>
+                &nbsp;&nbsp;&nbsp;<img src="https://img.icons8.com/color/48/000000/visa.png" alt="visa" width="80px" />
+              </div>
+
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <div class="form-outline">
+                  <input type="password" id="typeText" class="form-control form-control-lg" siez="17"
+                    placeholder="1234 5678 9012"  maxlength="12" name="cardNumber" />
+                  <label class="form-label" for="typeText">Card Number</label>
+                </div>
+                &nbsp;&nbsp;&nbsp;<img src="https://img.icons8.com/color/48/000000/mastercard-logo.png" alt="master" width="80px" />
+              </div>
+
+
+              <div class="d-flex justify-content-between align-items-center mb-4">
+                <div class="form-outline">
+                  <input type="text" id="typeName" class="form-control form-control-lg" siez="17"
+                    placeholder="Cardholder's Name" name="name" />
+                  <label class="form-label" for="typeName">Cardholder's Name</label>
+                </div>
+              </div>
+
+               <div class="d-flex justify-content-between align-items-center mb-4">
+                <div class="form-outline">
+                  <input type="number" id="typeAmount" class="form-control form-control-lg" siez="17"
+                    placeholder="enter the amount" name="amount" />
+                  <label class="form-label" for="typeAmount">Amount</label>
+                </div>
+              </div>
+                <div class="d-flex justify-content-between align-items-center mb-4">
+                <div class="form-outline">
+                  <input type="password" id="password" class="form-control form-control-lg"
+                    placeholder="&#9679;&#9679;&#9679;"  name="password" />
+                  <label class="form-label" for="password">password</label>
+                </div>
+                </div>
+                
+                <div class="d-flex justify-content-between align-items-center mb-4">
+                  <div class="form-outline">
+                  <input type="email" id="email" class="form-control form-control-lg"
+                    placeholder="&#9679;&#9679;&#9679;"  name="email" />
+                  <label class="form-label" for="email">email</label>
+                </div>
+                </div>
+
+
+              <div class="d-flex justify-content-between align-items-center pb-2">
+                <div class="form-outline">
+                  <input type="text" id="typeExp" class="form-control form-control-lg" placeholder="MM/YYYY"
+                    size="7" id="exp" minlength="7" maxlength="7" name="expiryDate"/>
+                  <label class="form-label" for="typeExp">Expiration</label>
+                </div>
+                &nbsp;&nbsp;&nbsp;<div class="form-outline">
+                  <input type="number" id="cvv" class="form-control form-control-lg"
+                    placeholder="&#9679;&#9679;&#9679;" size="1" maxlength="3" name="cvv" />
+                  <label class="form-label" for="cvv">Cvv</label>
+                </div>
+
+              
+
+              
+                &nbsp;&nbsp;&nbsp;<button type="submit" class="btn btn-info btn-lg btn-rounded">
+                 <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ {{>footer}}
+
+ <script src="https://kit.fontawesome.com/8a1f7b5484.js" crossorigin="anonymous"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.3.1/mdb.min.js"
+      integrity="sha512-DXEKT9U5aI4s0iPRILUN6itJ0BkIdMYmJg+nnirpdAklNOz972QQhjvdHYnDCn+5W/HBvAiXYG2UaHEHH87gpg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+  </body>
+</html>

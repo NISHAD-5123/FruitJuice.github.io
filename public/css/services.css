@@ -1,0 +1,45 @@
+
+.img-1{
+    background-image:url("./img1.jpg");	
+}
+.img-2{
+    background-image:url("./img2.jpg");
+}
+
+.image{
+height:45vh;
+background-repeat:no-repeat;
+background-position:center;	
+background-size:cover;		
+}
+
+#hrStyle{
+    width: 550px;
+    height: 4px;
+    margin-left:30rem;
+    color:red;
+}
+
+.space-container{
+    margin-left:15rem;
+    margin-right:15rem;
+}
+
+.colorBg{
+    background-color:#DCDCDC;
+    padding:2rem;
+}
+
+.flex-service{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5rem;
+}
+
+.service-image img{
+    height:17rem;
+    width:17rem;
+    border-radius:50%;
+    /* border-radius:50%; */
+}

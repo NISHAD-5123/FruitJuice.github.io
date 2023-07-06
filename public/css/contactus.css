@@ -1,0 +1,38 @@
+.space-container{
+    margin-left:15rem;
+    margin-right:15rem;
+}
+#hrStyle{
+    width: 550px;
+    height: 4px;
+    margin-left:30rem;
+    color:red;
+}
+
+#name{
+    border-right:hidden;
+    border-left:hidden;
+    border-top:hidden;
+    border-bottom:1px solid rgb(21, 113, 250);
+}
+
+#message{
+    border-right:hidden;
+    border-left:hidden;
+    border-top:hidden;
+    border-bottom:1px solid rgb(21, 113, 250);
+}
+
+#email{
+    border-right:hidden;
+    border-left:hidden;
+    border-top:hidden;
+    border-bottom:1px solid rgb(21, 113, 250);
+}
+
+#subject{
+    border-right:hidden;
+    border-left:hidden;
+    border-top:hidden;
+    border-bottom:1px solid rgb(21, 113, 250);
+}

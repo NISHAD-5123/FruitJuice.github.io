@@ -1,0 +1,15 @@
+.space-container{
+    margin-left:15rem;
+    margin-right:15rem;
+}
+
+#hrStyle{
+    width: 550px;
+    height: 4px;
+    margin-left:30rem;
+    color:red;
+}
+.colorBg{
+    background-color:#F8F8FF;
+    
+}
